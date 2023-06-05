@@ -15,7 +15,12 @@ const ModalContent = () => (
           If you have any questions, please do not hesitate to contact us on{" "}
           <strong>0000 000 0000</strong> or{" "}
           <strong>
-            <u className="text-[#002BFF] cursor-pointer">email@email.com </u>
+            <a
+              href="mailto:email@email.com"
+              className="text-[#002BFF] cursor-pointer"
+            >
+              <u>email@email.com</u>
+            </a>
           </strong>
         </p>
       </div>
@@ -96,4 +101,3 @@ const Modal = () => {
 };
 
 export default Modal;
-
