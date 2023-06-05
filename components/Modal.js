@@ -15,16 +15,16 @@ const ModalContent = () => (
           If you have any questions, please do not hesitate to contact us on{" "}
           <strong>0000 000 0000</strong> or{" "}
           <strong>
-            <u className="text-[#002BFF]">email@email.com </u>
+            <u className="text-[#002BFF] cursor-pointer">email@email.com </u>
           </strong>
         </p>
       </div>
 
       <div className="flex flex-col text-lg font-bold text-[#FFFFFF] gap-y-[1.563rem] leading-6 ">
-        <button className="px-[1.563rem] py-[0.938rem] bg-[#002BFF] rounded-md">
+        <button className="px-[1.563rem] py-[0.938rem] bg-[#002BFF] rounded-md cursor-pointer">
           LOGIN TO SCHEME A
         </button>
-        <button className="px-[1.563rem] py-[0.938rem] bg-[#002BFF] rounded-md">
+        <button className="px-[1.563rem] py-[0.938rem] bg-[#002BFF] rounded-md cursor-pointer">
           LOGIN TO SCHEME B
         </button>
       </div>
@@ -77,7 +77,7 @@ const Modal = () => {
   return (
     <div>
       <button
-        className=" bg-[#00AF40] text-white py-3 px-[1.375rem] rounded-md text-2xl border-[#009135] border-[1.5px] font-sans leading-7 font-bold"
+        className=" bg-[#00AF40] text-white py-3 px-[1.375rem] rounded-md text-2xl border-[#009135] border-[1.5px] font-sans leading-7 font-bold cursor-pointer"
         onClick={openModal}
       >
         LOGIN
